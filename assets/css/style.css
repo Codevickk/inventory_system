@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito:100,200,300,400,500,600");
+/* ------------------ BASIC STYLING ----------------------- */
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 0 10px;
+}
+
+@media only screen and (min-width: 1400px) {
+  .main {
+    padding: 0 80px;
+  }
+}
+
+/* ------------------ HEADINGS AND TYPOGRAPHY ----------------------- */
+
+h1 {
+  font-size: 23px;
+  font-weight: 600;
+  letter-spacing: -2px;
+  word-spacing: 2px;
+}
+
+p {
+  color: #6c757d;
+  font-size: 16px;
+}
+
+/* ----------------------- HEADER STYLING ------------------------- */
+
+header {
+  padding: 30px 15px;
+}
+
+header .page-title {
+  color: rgb(53, 52, 52);
+}
+
+/* -------------------- COMPUTERS SECTION --------------- */
+
+.computers {
+  padding: 10px;
+  border: 1px solid #ebebeb;
+}
+
+/* --------------------------  PAGINATION SECTION  ----------------------------*/
+nav.computers-paging {
+  margin-top: 20px;
+  padding: 0 10px;
+}
+
+
+/*****************    REQUIRED FIELDS    *********************/
+input:required {
+  border-left-color: red !important;
+}
